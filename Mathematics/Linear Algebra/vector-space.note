@@ -1,0 +1,23 @@
+[[Front]]
+What is a Vector Space?
+
+[[Back]]
+A Vector Space, \(V\), is a set of objects called vectors.
+There are two operations defined on these objects, scalar multiplication, and vector addition.
+There is also a \(\bv{0}\) vector.
+Given vectors \(\bv{u}, \bv{v}\), and \(\bv{w}\) and all scalars \(a\) and \(b\), the following axioms must be satisfied:
+
+<ol>
+   <li>Closed, \(a\bv{v} \in \(V\), \bv{v} + \bv{w} \in \(V\)\)</li>
+   <li>Commutative (+), \(\bv{v} + \bv{w} = \bv{w} + \bv{v}\)</li>
+   <li>Associative (+), \((\bv{u} + \bv{v}) + \bv{w} = \bv{u} + (\bv{v} + \bv{w})\)</li>
+   <li>Identity (+), \(\bv{v} + \bv{0} = \bv{v}\)</li>
+   <li>Annhilation, \(0\bv{v} = \bv{0}\)</li>
+   <li>Identity (scalar), \(1\bv{v} = \bv{v}\)</li>
+   <li>Associative (scalar), \(a(b\bv{v}) = (ab)\bv{v}\)</li>
+   <li>Distribution (scalar), \(a(\bv{v} + \bv{w}) = a\bv{v} + a\bv{w}\)</li>
+   <li>Distribution (vector), \((a + b)\bv{v} = a\bv{v} + b\bv{v}\)</li>
+</ol>
+
+[[Source]]
+{{macdonald linear}}
