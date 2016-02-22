@@ -1,0 +1,10 @@
+[[Front]]
+In the semantics of programming languages, what is a semantic function?
+
+[[Back]]
+A semantic function takes a syntactic structure (which optionally may depend on some state) and returns either a semantic value.
+The semantic value is implied to be of some abstract mathematical value.
+
+e.g. \(N : Numeral \leftarrow \mathbb{Z}\)
+
+[[Source]] {{nielson semantics}}
